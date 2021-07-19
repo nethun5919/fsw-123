@@ -1,12 +1,16 @@
 import './App.css';
 import TodoList from "./TodoList";
+// import Stores from "./TodoStore";
+ 
+function Apps(){
 
-function App() {
-  return (
+return (
     <div>
     <TodoList/>
+    {/* <Stores /> */}
+    
     </div>
   );
 }
 
-export default App;
+export default Apps;

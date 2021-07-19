@@ -1,15 +1,15 @@
 
 
 
-function TodoList () {
+function TodoList (addition) {
 
     return (
       <>
-        <h1>List of Todos</h1>
-        
-         <input type = "checkbox"/> <span>clean house</span>
-         <input type = "checkbox"/> <span>wash car</span>
-         <input type = "checkbox"/> <span>grocery shopping</span> 
+        <h1>Todo List</h1>
+        <div>
+         <input type = "checkbox"/> <span>clean house</span></div>
+        <div><input type = "checkbox"/> <span>wash car</span></div>
+         <div><input type = "checkbox"/> <span>grocery shopping</span></div>
            
           </>
     );
