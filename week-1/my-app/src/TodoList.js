@@ -1,19 +1,27 @@
 
 
 
-function TodoList (addition) {
+function TodoList({todos}) {
 
     return (
-      <>
-        <h1>Todo List</h1>
-        <div>
-         <input type = "checkbox"/> <span>clean house</span></div>
-        <div><input type = "checkbox"/> <span>wash car</span></div>
-         <div><input type = "checkbox"/> <span>grocery shopping</span></div>
-           
-          </>
+ <>
+ {todos.map((item,index ) => {
+     return (
+         <div>
+             <ul>
+                 <li key={index}>
+                   <h1> {item.text}</h1> 
+                   <input type = "checkbox"/>
+                 </li>
+             </ul>
+         </div>
+     )
+ })} 
+
+     </>
     );
 }
+  
    
 
    export default TodoList;
