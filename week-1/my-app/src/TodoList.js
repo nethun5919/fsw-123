@@ -10,10 +10,12 @@ function TodoList({todos}) {
          <div>
              <ul>
                  <li key={index}>
-                   <h1> {item.text}</h1> 
-                   <input type = "checkbox"/>
+                  <h1><input type = "checkbox"/>{item.text}</h1> 
+               
                  </li>
-             </ul>
+              </ul>
+             
+             
          </div>
      )
  })} 

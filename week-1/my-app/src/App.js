@@ -1,15 +1,18 @@
 import "./App.css";
 import TodoList from "./TodoList";
 import {todos} from "./TodoStore";
- 
+
+
+
+
+
 function Apps(){
 
 return (
     <div>
     <TodoList todos = {todos}/>
-    
-    
-    </div>
+     </div>
+     
   );
 }
       export default Apps;
