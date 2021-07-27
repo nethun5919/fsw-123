@@ -9,3 +9,12 @@ export const todos = [
 ];
 
 
+const completeTodos = id => {
+   
+    }
+
+
+
+    const deleteTodo = (id) => {
+        
+    }
